@@ -1,0 +1,140 @@
+/* font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'DM Sans', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif; */
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-size:18px;
+    background-color: #DCDCDC;
+}
+.main-header{
+    display:flex;
+    /* height:80px; */
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:100px;
+    /* padding-top:8%; */
+    /* padding:8% 25% 8% 8%; */
+   /* padding-left:8%;*/
+   padding-right:15%;
+   /*padding-top:8%;
+   padding-bottom:8%; */
+   height:150px;
+}
+a:link,a:visited{
+    color:black;
+    font-size:18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-right:40px;
+    text-decoration:none;
+    
+}
+a:hover{
+    color:blueviolet;
+}
+.more-info{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:25px;
+    margin-bottom:5px;
+    margin-left:250px;
+}
+.spaced-text{
+    margin-right: 20px;
+    margin-left:20px;
+    
+}
+.architect{
+    font-size:120px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight:normal;
+    margin-bottom:60px;
+    margin-left:250px;
+}
+.main-part{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:20px;
+}
+.magazine-center{
+    font-size:50px;
+    font-family: 'Cormorant Garamond', serif;
+
+    
+}
+.house-decor-photo{
+    margin-right:30px;
+    margin-left:50px;
+}
+.magazine{
+    margin-bottom:20px;
+}
+.para1{
+    line-height:2;
+    font-size:18px;
+}
+.full-article{
+    padding:10px;
+    margin-top:20px;
+    width:30%;
+    text-transform:uppercase;
+    font-size:12px;
+    background-color:black;
+    color:white;
+    border:none;
+}
+.spaced-button{
+    margin-right: 10px;
+    margin-left:10px;  
+}
+ul{
+    padding:40px;
+    list-style: none;
+}
+h3{
+    margin-left:50px;
+}
+li{
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+    padding:10px;
+    
+}
+li img{
+    /* margin-top:20px; */
+    margin-right:20px;
+}
+.dates{
+    font-size:14px;
+}
+li:hover{
+    background-color:white;
+}
+.books{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.magazine-intro{
+    font-size:60px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight:normal;
+    margin-left:50px;
+    margin-right:20px;
+}
+.main-container{
+    display:flex;
+    align-items:center;
+}
+.second-container{
+    flex:1;
+}
+
