@@ -1,0 +1,92 @@
+*{
+    margin : 0;
+    box-sizing : border-box;
+    padding: 0;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+body{
+    font-family: "Work Sans", sans-serif;
+    margin-block : 5%;
+    margin-inline : 2.5%;
+    position : relative;
+    font-size : 16px;
+
+}
+.background-image {
+    background-image : url(./assets/images/background-pattern-desktop.svg);
+    height : 40vh;
+    background-position : center;
+   
+}
+.background-color {
+    background-color : hsl(275, 100%, 97%);
+    height : 100vh;
+}
+.faq-content{
+    position : absolute;
+    background-color : hsl(0, 0%, 100%);
+    border-radius : 10px;
+    height : 400px;
+    max-height : 400px;
+    width : 470px;
+    top : 120px;
+    left : 35%;   
+    overflow : auto;
+   
+}
+.title{
+    display : flex;
+    gap : 10px;
+    margin-top : 30px;
+    margin-left : 30px;
+}
+.title h1 {
+    color : hsl(292, 42%, 14%);
+}
+.Questions-List{
+    padding : 20px;
+    
+    /* overflow : auto; */
+}
+span li {
+    list-style : none;
+    color : hsl(292, 42%, 14%);
+    font-weight : 800;
+    
+}
+.Questions-List span li {
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    
+}
+/* .Questions-List div{
+    margin-bottom : 0px;
+} */
+
+
+@media (min-width :320px) and (max-width : 720px){
+    .faq-content{
+      
+        background-color : hsl(0, 0%, 100%);
+        border-radius : 10px;
+        height : 600px;
+        /* max-height : 600px; */
+        width : 300px;
+        top : 120px;
+        left : 20%;   
+       
+       
+    }
+}
+
+
+
+ 
